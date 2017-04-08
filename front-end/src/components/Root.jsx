@@ -13,8 +13,8 @@ const Root = (props) => {
 };
 
 Root.propTypes = {
-    store: PropTypes.object.isRequired,
-    history: PropTypes.object.isRequired,
+    store: PropTypes.shape().isRequired,
+    history: PropTypes.shape().isRequired,
 };
 
 export default Root;

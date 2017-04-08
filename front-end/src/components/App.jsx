@@ -1,11 +1,12 @@
 import React, { PropTypes } from 'react';
 import { Link, IndexLink } from 'react-router';
 
-// This is a class-based component because the current
-// version of hot reloading won't hot reload a stateless
-// component at the top-level.
-// eslint-disable-next-line
-class App extends React.Component {
+/*
+ This is a class-based component because the current
+ version of hot reloading won't hot reload a stateless
+ component at the top-level.
+ */
+class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
     render() {
         return (
             <div>
